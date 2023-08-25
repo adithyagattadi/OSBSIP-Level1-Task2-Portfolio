@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Portfolio</title>
+</head>
+<body class="body">
+    <h1 class="h1">Portfolio</h1>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a> 
+        <a class="about1" href="#about">About</a>
+        <a class="skills1" href="#skills">Skills</a>
+        <a class="project1" href="#project">Project</a>
+        <a class="contact1" href="#contact">Contact </a>
+    </nav>
+
+<!-- ------------------------------------- Home ------------------------------------------ -->
+
+    <section id="home">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="Assests/space_-_2381 (540p).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="whole">
+            <div class="home-content">
+                <h3>Hello It's Me</h3>
+                <h1>Adithya Gattadi</h1>
+                <h3>And I'm a <span class="deve">DEVELOPER</span></h3>
+                <p>Hey welcome to my portfolio, Myself Adithya Gattadi a decent Frontend developer, Web designer and a student from CSE Department at VIT-Vellore</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/adithya.gattadi.5"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/adithyafr_/"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="https://www.linkedin.com/in/adithya-gattadi-450353217/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/adithyagattadi"><i class='bx bxl-github' ></i></a>
+                    <a href="https://discord.com/channels/@me"><i class='bx bxl-discord-alt' ></i></a>
+                </div>
+                <a class="resume" download="./Resume.pdf" href="./Resume.pdf">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+<!-- ------------------------------------- About ------------------------------------------ -->
+
+    <section id="about">
+        <div class="about-contect">
+            <h2 class="heading">About Me</h2>
+            <h3 class="FE_D">Frontend Developer!</h3>
+            <p class="p">Hey guys Myself Adithya Gattadi from CSE Department at VIT-Vellore. As a frontend developer,<br> 
+                I have a passion for creating engaging and user-friendly web experiences. With a strong foundation <br> 
+                in HTML, CSS, and JavaScript, I specialize in building responsive and visually appealing websites. <br> 
+                I am experienced in working as a Web Designer too, and have a good understanding of UI/UX <br> 
+                principles. I strive to write clean and maintainable code, while keeping up with the latest industry <br> 
+                trends and best practices. I enjoy collaborating with cross-functional teams to bring designs to life <br> 
+                and deliver high-quality solutions that meet user needs.<br><br>Click on read more to get more information about me</p>
+            <a href="https://www.linkedin.com/in/adithya-gattadi-450353217/" class="abtLI">Read More</a>
+        </div>
+        <div class="green">
+            <img src="Assests/green.jpeg" height="500px" width="500px">
+        </div>
+    </section>
+
+<!-- ------------------------------------- Skills ------------------------------------------ -->
+
+    <section id="skills">
+        <h1 class="skl">My Skills</h1>
+        <div class="skillsimg">
+            <img class="HTML" src="Assests/HTML.png" alt="logo" height="200px" width="200px">
+            <img class="CSS" src="Assests/CSS.png" alt="logo" height="200px" width="150px">
+            <img class="JS" src="Assests/JavaScript.png" alt="logo" height="200px" width="200px">
+            <img class="ReactJs" src="Assests/ReactJs.png" alt="logo" height="150px" width="150px">
+            <img class="NodeJs" src="Assests/NodeJs.png" alt="logo" height="150px" width="250px">
+            <img class="MongooseJs" src="Assests/MongooseJs.png" alt="logo" height="200px" width="350px">
+            <img class="ExpressJs" src="Assests/ExpressJs.png" alt="logo" height="150px" width="250px">
+            <img class="MongoDB" src="Assests/MongoDB.png" alt="logo" height="150px" width="250px">
+            <img class="MySQL" src="Assests/MySQL.png" alt="logo" height="150px" width="250px">
+            <img class="Python" src="Assests/Python.png" alt="logo" height="150px" width="150px">
+            <img class="NPM" src="Assests/NPM.png" alt="logo" height="100px" width="150px">
+        </div>
+    </section>
+
+<!-- ------------------------------------- Projects ------------------------------------------ -->
+
+    <section id="project">
+        <h1 class="pjt">My Projects</h1>
+        <h3 class="ds"><b>DevSpark'2023 Hackathon :- </b></h3>
+        <p class="d_pass">DevSpark is a project that comes under Yantra Hackathon which is the Technical event of VIT Vellore, In this Porject me and <br> my teammates designed a website using HTML, CSS and JavaScript.<br>Here's the link of the project<br><br>
+        <a href="https://github.com/adithyagattadi/yantraWebsite-Hackathon">Github Link</a> </p>
+        <h3 class="pw"><b>Physics Wallah Hackathon 8.0 :- </b></h3>
+        <p class="p_pass">This was the offlice Tech Hackathon conducted by physics wallah and it was 24hours Hackathon, bascially in this project we <br> designed food blogging website and implemented it. We used both frontend and backend<br>Here's the link of the project<br><br>
+        <a href="https://github.com/Kishoran/Food-Blogging-Platform">Github Link</a> </p>
+    </section>
+
+
+<!-- ------------------------------------- Contact ------------------------------------------ -->
+
+    <section id="contact">
+        <h2 class="cnt">Contact Me</h2>
+        <form class="input" id="contact-form">
+            <label class="name" for="username">Name</label>
+            <input type="text" name="username" id="username" placeholder="Enter the Name">
+            <br><br>
+            <label class="gmail" for="gmail">Gmail</label>
+            <input type="email" name="email" id="email" placeholder="Enter the Gmail">
+            <br><br>
+            <label class="number" for="number">Phone No</label>
+            <input type="number" name="number" id="number" placeholder="Enter the Phone No">
+            <br><br>
+            <label name="Message" id="Message" cols="30" rows="10" for="message">Message</label>
+            <input type="text" name="message" id="message" placeholder="Enter the Message">
+            <br><br>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Made with ❤️ by Adithya Gattadi.</p>
+    </footer>
+</body>
+</html>
